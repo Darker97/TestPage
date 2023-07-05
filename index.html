@@ -10,18 +10,18 @@
         <p>My first paragraph.</p>
 
     </body>
-    <script>
-        window.watsonAssistantChatOptions = {
-          integrationID: "60a8ef7e-135b-42d7-95dc-3bd0a506fec8", // The ID of this integration.
-          region: "us-east", // The region your integration is hosted in.
-          serviceInstanceID: "948ed38f-e26e-4d9a-bf98-e38ed57f18f2", // The ID of your service instance.
-          onLoad: function(instance) { instance.render(); }
-        };
-        setTimeout(function(){
-          const t=document.createElement('script');
-          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
-          document.head.appendChild(t);
-        });
-      </script>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "fa0daf61-9a58-476d-bdd8-c8ad90078982", // The ID of this integration.
+    region: "us-east", // The region your integration is hosted in.
+    serviceInstanceID: "6c2d0536-ddba-4722-9a8a-5a979dca7d00", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
 </html>
 
